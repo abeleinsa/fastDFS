@@ -11,5 +11,6 @@ public class jedis {
         jedis.zadd("a",100,"aa");
         System.out.println(jedis.zrange("a",0,-1));
 
+        System.out.println("__________________");
     }
 }
